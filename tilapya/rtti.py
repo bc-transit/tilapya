@@ -198,7 +198,7 @@ class StopSchema(Schema):
     AtStreet = fields.String(required=True)
     Latitude = fields.Float(required=True)
     Longitude = fields.Float(required=True)
-    WheelchairAccess = fields.Boolean(required=True)
+    WheelchairAccess = fields.Integer(required=True)
     Distance = fields.Integer(required=True)
     Routes = fields.String(required=True)
 
